@@ -1,0 +1,24 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: start;
+}
+.sub-cont{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+}
