@@ -10,15 +10,21 @@ body{
 .container{
     width: 500px;
     height: 500px;
-    background-color: royalblue;
+    background-color: aqua;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: space-between;
-    align-items: start;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 20px;
 }
 .sub-cont{
     width: 100px;
     height: 100px;
     background-color: yellowgreen;
+    margin-top: 20px;
+    transition: all ease 1s;
+}
+.sub-cont:hover{
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px dashed white;
 }
