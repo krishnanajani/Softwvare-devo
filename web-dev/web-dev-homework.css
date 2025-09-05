@@ -1,0 +1,50 @@
+
+.container{
+    background-color: rgb(223, 5, 5);
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 80%;
+    max-width: 600px;
+    margin-top: 50px;
+}
+.navbar{
+    background-color: antiquewhite;
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(243, 243, 12);
+}
+.button{
+    background-color: rgb(0, 255, 34);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(0, 136, 18);
+    color: white;
+    transition: 0.3s;
+    border-radius: 50px;
+    transform: scale(1.1);
+    transition-property: background-color, transform;
+    transition-duration: 2sec;
+    transition-timing-function: ease;
+}
+.hello{
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
