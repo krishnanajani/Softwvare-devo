@@ -1,2 +1,0 @@
-# Softwvare-devo
-By Ajay
