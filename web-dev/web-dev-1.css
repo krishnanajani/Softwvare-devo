@@ -9,6 +9,11 @@ body{
     height: 100vh;
     
 }
+.box{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .gap{
     gap: 40px;
     margin-left: 10px;
@@ -38,9 +43,11 @@ body{
 .navbar{
     background-color: rgb(255, 255, 255);
     padding: 10px;
+    border-radius: 30px;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .main{
     background-color: aquamarine;
@@ -58,9 +65,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+     
     
     
+}
+.sub{
     
+    position: absolute;
+    z-index: 5;
+    bottom: 20px;
+    right: 170px;
 }
 img{
     border-radius: 10%;
@@ -96,7 +111,3 @@ img :hover{
     color: white;
     border-radius: 50px;
 }
-
-
-
-
